@@ -1,1 +1,8 @@
-whooaoao
+---
+services:
+- name: paul
+  pipelines:
+  - name: local
+    cluster_selection_rules:
+    - expression: "name:kind"
+      manifest_template_command: ["echo", "local"]
