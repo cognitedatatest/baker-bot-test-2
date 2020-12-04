@@ -1,0 +1,3 @@
+[submodule "jenkins-helpers"]
+	path = jenkins-helpers
+	url = git@github.com:cognitedatatest/jenkins-helpers.git
